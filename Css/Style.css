@@ -1,0 +1,196 @@
+html{
+	font-size: 62,5%;
+}
+
+body{
+	background-image: url(../imagenespagina/9916513.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 10px;
+}
+
+ul li a{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	font-family: Roboto Mono,monospace;
+    color: white;
+    text-align: right;
+	padding: 5px;
+    font-size: 15px;
+	text-decoration: none;
+    
+    box-sizing: border-box;
+}
+
+nav ul li a:hover{
+	background-color: #4f2991;
+}
+
+.active{
+ 	text-decoration: none;
+}
+
+@keyframes expandir {
+	0%{width: 50px;}
+	20%{width: 70px;}
+	40%{width: 100px;}
+	60%{width: 130px;}
+	80%{width: 170px;}
+	100%{width: 200px;}
+}
+
+#logoimagen main header img{
+	animation-name: expandir;
+	animation-iteration-count: initial;
+	animation-duration: 2s;
+	animation-delay: 0s;
+}
+
+
+h1{
+	color: whitesmoke;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 60px;
+	top: 0,5px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	
+}
+
+h2{
+	color: #ddccf0;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 50px;
+	position: relative;
+	top: 1px;
+}
+
+h3{
+	color: #b299cf;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 40px;
+	position: relative;
+	top: 1,5px;
+}
+
+h4{
+	color: #9775bf;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 30px;
+	position: relative;
+	top: 2px;
+}
+
+h1,h2,h3,h4{
+	font-family: Special Elite,sans-serif;
+}
+
+
+#fotoproductos{
+	position: relative;
+}
+
+
+.cajas{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.cajas ul li a{
+	color: white;
+	font-family: Roboto Mono,monospace;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#caja1:hover{
+	transform: rotateX(30deg);
+	height: 330px;
+	cursor: pointer;
+}
+
+
+
+#caja1{
+	margin: 10px;
+	box-sizing: border-box;
+	border-style: double;
+	border-width: 10px;
+	border-color: #4f2991;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	transition: all 3s;
+}
+
+#caja2:hover{
+	transform: rotateX(30deg);
+	height: 330px;
+	cursor: pointer;
+}
+
+
+#caja2{
+	margin: 10px;
+	box-sizing: border-box;
+	border-style: double;
+	border-width: 10px;
+	border-color: #721331;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	transition: all 3s;
+}
+
+
+
+
+
+h5{
+	color: white;
+	font-family: Special Elite,sans-serif;
+	font-size: 35px;
+	padding-right: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.pie{
+	padding: 5px;
+	background-image: linear-gradient(to bottom, #ddccf0, #9775bf);
+}
+
+#redes{
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	justify-items: center;
+	flex-direction: row;
+	
+}
+
+footer ul li a{
+	padding: 5px;
+	display: flex;
+}

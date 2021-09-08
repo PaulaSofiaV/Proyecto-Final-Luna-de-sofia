@@ -1,0 +1,50 @@
+$color-principal: white;
+$color1: #ddccf0;
+$color2: #b299cf;
+$color3: #9775bf;
+
+$color-fondotexto: #4f2991;
+
+$color-caja2: #721331;
+
+$color-degrade1: #ddccf0;
+$color-degrade2: #9775bf;
+
+$font-titulos: Special Elite,sans-serif;
+
+$font-texto: Roboto Mono,monospace;
+
+
+
+ul{
+    li {
+        list-style-type: none;
+        display: inline;
+        padding: 10px 10px;
+    }
+}
+
+ul{
+    li{
+        a{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            font-family: $font-texto;
+            color: $color-principal;
+            text-align: right;
+            padding: 5px;
+            font-size: 15px;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+    }
+}
+
+nav ul li a:hover{
+	background-color: $color-fondotexto;
+}
+
+.active{
+    text-decoration: none;
+}

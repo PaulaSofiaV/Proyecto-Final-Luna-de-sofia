@@ -1,0 +1,271 @@
+html{
+	font-size: 62,5%;
+}
+
+body{
+	background-image: url(../imagenespagina/9916513.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 10px;
+}
+
+ul li a{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	font-family: Roboto Mono,monospace;
+    color: white;
+    text-align: right;
+	padding: 5px;
+    font-size: 15px;
+	text-decoration: none;
+    
+    box-sizing: border-box;
+}
+
+nav ul li a:hover{
+	background-color: #4f2991;
+}
+
+.active{
+ 	text-decoration: none;
+}
+
+h1{
+	color: whitesmoke;
+	text-align: center;
+	font-size: 60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+h2{
+	color: #ddccf0;
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	top: 1px;
+}
+
+h3{
+	color: #b299cf;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+}
+
+h4{
+	color: #9775bf;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+}
+
+h1,h2,h3,h4{
+	font-family: Special Elite,sans-serif;
+}
+
+
+#texto1{
+	height: 350px;
+	width: 50%;
+	color: black;
+	font-family: Roboto Mono,monospace;
+	font-size: 20px;
+	word-spacing: 2px;
+	background-color: #b299cf;
+	border-style: double;
+	border-width: 10px;
+	border-color: #4f2991;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.foto1{
+	padding: 20px;
+	margin: 10px;
+	background-color: #ddccf0;
+
+}
+
+#texto2{
+	height: 355px;
+	width: 50%;
+	color: black;
+	font-family: Roboto Mono,monospace;
+	font-size: 20px;
+	word-spacing: 2px;
+	background-color: #b299cf;
+	border-style: double;
+	border-width: 10px;
+	border-color: #4f2991;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.foto2{
+	padding: 20px;
+	margin: 10px;
+	background-color: #ddccf0;
+}
+
+.caja1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.caja2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#almohadones{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#remeras{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#llaveros{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#barbijos{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#sets{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#buzos{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#etiquetas{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#stickers{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#tags{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#remerasybuzos{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#almohadonesper{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+#barbijosper{
+	background-color: #b299cf;
+	padding: 10px;
+}
+
+
+nav ul li{
+	color: #cab9ed;
+	text-decoration: none;
+	margin-left: 50px;
+	list-style-type: none;
+	position: all;
+	font-size: 30px;
+}
+
+
+header{
+	color: black;
+	font-family: Roboto Mono,monospace;
+	text-align: center;
+}
+
+
+p{
+	font-size: 14px;
+	font-family: Roboto Mono,monospace;
+	text-align: center;
+}
+
+#pregutna{
+	color: white;
+	font-family: Roboto Mono,monospace;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+#titulo {
+	color: black;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 50px;
+}
+
+h5{
+	color: black;
+	background-image: linear-gradient(to bottom, #ddccf0, #9775bf);
+	font-family: Roboto Mono,monospace;
+	text-align: center;
+	font-size: 35px;
+}
+
+
+
+h6{
+	color: white;
+	font-family: Roboto Mono,monospace;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+}
+
+.pie{
+	margin: 2px;
+	background-image: linear-gradient(to bottom, #ddccf0, #9775bf);
+}
+
+#redes{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	flex-direction: row;
+	
+}
+
+footer ul li a{
+	padding: 5px;
+	display: flex;
+}

@@ -1,0 +1,32 @@
+$color-principal: white;
+$color-principal2: black;
+$color1: #ddccf0;
+$color2: #b299cf;
+$color3: #9775bf;
+
+$font-titulos: Special Elite,sans-serif;
+
+
+
+.pie{
+	margin: 2px;
+	background-image: linear-gradient(to bottom, $color1, $color3);
+}
+
+#redes{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	flex-direction: row;
+}
+
+.final{
+	font-size: 16px;
+	font-family: $font-titulos;
+	color: $color-principal2;
+}
+
+footer ul li a{
+	padding: 5px;
+	display: flex;
+}

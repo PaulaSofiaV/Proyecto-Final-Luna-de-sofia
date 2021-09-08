@@ -1,0 +1,294 @@
+$fondo: url(../imagenespagina/9916513.jpg);
+
+$color-principal: white;
+$color-principal2: black;
+$color1: #ddccf0;
+$color2: #b299cf;
+$color3: #9775bf;
+
+$color-fondotexto: #4f2991;
+
+$color-caja2: #721331;
+
+$color-degrade1: #ddccf0;
+$color-degrade2: #9775bf;
+
+$font-titulos: Special Elite,sans-serif;
+
+$font-texto: Roboto Mono,monospace;
+
+html{
+	font-size: 62,5%;
+}
+
+@media screen and (max-width: 376px) {
+	body{
+		margin-top: 4rem;
+	}
+	header{
+		height: initial;
+	}
+
+	
+}
+
+	
+
+body{
+	background-image: $fondo;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: $color-principal;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	
+}
+
+h2{
+	color: $color1;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 50px;
+	position: relative;
+}
+
+h3{
+	color: $color2;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 40px;
+	position: relative;
+}
+
+h4{
+	color: $color3;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 30px;
+	position: relative;
+}
+
+h1,h2,h3,h4{
+	font-family: $font-titulos;
+}
+
+
+#fotoproductos{
+	position: relative;
+}
+
+.imagenes{
+	display: flex;
+	justify-items: center;
+}
+
+#promo:hover{
+	transform: rotateX(30deg);
+	height: 300px;
+
+}
+
+#promo {
+	transition: all 3s;
+
+}
+
+#oferta:hover{
+	transform: rotateX(30deg);
+	height: 300px;
+
+}
+
+#oferta {
+	transition: all 3s;
+}
+
+.parte1{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+#texto1{
+	color: $color-principal2;
+	font-family: $font-texto;
+	font-size: 20px;
+	word-spacing: 2px;
+	background-color: $color2;
+	border-style: double;
+	border-width: 10px;
+	border-color: $color-fondotexto;
+	padding: 10px;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+#foto1{
+	padding: 10px;
+	margin: 5px;
+	background-color: #ddccf0;
+	justify-content: flex-end;
+}
+
+.parte2{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+#texto2{
+	color: $color-principal2;
+	font-family: $font-texto;
+	font-size: 20px;
+	word-spacing: 2px;
+	background-color: $color2;
+	border-style: double;
+	border-width: 10px;
+	border-color: $color-fondotexto;
+	padding: 10px;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+#foto2{
+	padding: 10px;
+	margin: 5px;
+	background-color: #ddccf0;
+}
+
+.caja1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.caja2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#almohadones{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#remeras{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#llaveros{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#barbijos{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#sets{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#buzos{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#etiquetas{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#stickers{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#tags{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#remerasybuzos{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#almohadonesper{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#barbijosper{
+	background-color: $color2;
+	padding: 10px;
+}
+
+
+nav ul li{
+	color: $color1;
+	text-decoration: none;
+	margin-left: 50px;
+	list-style-type: none;
+	position: all;
+	font-size: 30px;
+}
+
+header{
+	color: $color-principal2;
+	font-family: $font-texto;
+	text-align: center;
+}
+
+p{
+	font-size: 14px;
+	font-family: $font-texto;
+	text-align: center;
+}
+
+#pregutna{
+	color: $color-principal;
+	font-family: $font-texto;
+	display: flex;
+	justify-content: center;
+}
+
+#titulo {
+	color: $color-principal2;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 50px;
+}
+
+h5{
+	margin: 5px;
+	color: $color-principal2;
+	background-image: linear-gradient(to bottom, $color1, $color3);
+	font-family: $font-titulos;
+	text-align: center;
+	font-size: 35px;
+}
+
+h6{
+	color: $color-principal;
+	font-family: $font-texto;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
